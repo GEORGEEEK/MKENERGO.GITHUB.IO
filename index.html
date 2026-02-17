@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ООО МК ЭНЕРГО — обслуживание и монтаж электрошкафов и систем автоматики в Тольятти и Самарской области. Надёжно, быстро, с гарантией.">
+  <title>ООО «МК ЭНЕРГО» — Обслуживание и монтаж электрошкафов и систем автоматики | Тольятти</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#" class="logo" aria-label="ООО «МК ЭНЕРГО»">
+        <span class="logo__icon" aria-hidden="true" style="display:none;">⚡</span>
+        <img
+          class="logo__img"
+          src="images/logo.png"
+          alt="Логотип ООО «МК ЭНЕРГО»"
+          width="34"
+          height="34"
+          loading="eager"
+          decoding="async"
+          onerror="this.style.display='none'; this.previousElementSibling.style.display='inline-block';"
+        >
+      </a>
+      <nav class="nav" id="nav">
+        <ul class="nav__list">
+          <li><a href="#hero" class="nav__link">Главная</a></li>
+          <li><a href="#services" class="nav__link">Услуги</a></li>
+          <li><a href="#about" class="nav__link">О компании</a></li>
+          <li><a href="#advantages" class="nav__link">Преимущества</a></li>
+          <li><a href="#projects" class="nav__link">Проекты</a></li>
+          <li><a href="#contacts" class="nav__link">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="header__actions">
+        <a href="tel:+79178284730" class="header__phone">8 917 828-47-30</a>
+        <a href="#contacts" class="btn btn--primary">Получить консультацию</a>
+      </div>
+      <button class="burger" id="burger" type="button" aria-label="Открыть меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <div class="hero__slider">
+        <div class="hero__slide hero__slide--active" style="background-image: url('images/slide1.jpg'), linear-gradient(135deg, #1a3a5c 0%, #2d5a87 100%)"></div>
+        <div class="hero__slide" style="background-image: url('images/slide2.jpg'), linear-gradient(135deg, #0d2d4d 0%, #1a4d73 100%)"></div>
+        <div class="hero__slide" style="background-image: url('images/slide3.jpg'), linear-gradient(135deg, #003087 0%, #0044b3 100%)"></div>
+        <div class="hero__slide" style="background-image: url('images/slide4.jpg'), linear-gradient(135deg, #1a3a5c 0%, #003087 100%)"></div>
+      </div>
+      <div class="hero__overlay"></div>
+      <div class="container hero__content">
+        <h1 class="hero__title">Обслуживание и монтаж электрошкафов и систем автоматики</h1>
+        <p class="hero__subtitle">Надёжно. Быстро. С гарантией. Тольятти и Самарская область</p>
+        <div class="hero__buttons">
+          <a href="#contacts" class="btn btn--primary btn--lg">Получить консультацию</a>
+          <a href="#services" class="btn btn--outline btn--lg">Посмотреть услуги</a>
+        </div>
+        <p class="hero__note">Работаем с 2015 года | Более 300 объектов</p>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section about" id="about">
+      <div class="container">
+        <h2 class="section__title">Ваша надёжная команда по электрике</h2>
+        <div class="about__text">
+          <p>ООО «МК ПРОФИ ЭНЕРГО ГРУПП» — профессиональная компания по обслуживанию и монтажу электрошкафов, систем автоматики и электросетей. Мы работаем с управляющими компаниями, ТСЖ, заводами, строительными компаниями и частными заказчиками с крупными объектами.</p>
+          <p>Наши специалисты имеют необходимые допуски и сертификаты. Используем современное оборудование и комплектующие от проверенных поставщиков. Предоставляем полный комплект документов и гарантию на все виды работ.</p>
+        </div>
+        <div class="stats">
+          <div class="stats__item" data-aos>
+            <span class="stats__number">9+</span>
+            <span class="stats__label">лет на рынке</span>
+          </div>
+          <div class="stats__item" data-aos>
+            <span class="stats__number">300+</span>
+            <span class="stats__label">объектов обслужено</span>
+          </div>
+          <div class="stats__item" data-aos>
+            <span class="stats__number">15+</span>
+            <span class="stats__label">специалистов</span>
+          </div>
+          <div class="stats__item" data-aos>
+            <span class="stats__number">24/7</span>
+            <span class="stats__label">аварийный выезд</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section services" id="services">
+      <div class="container">
+        <h2 class="section__title">Наши услуги</h2>
+        <div class="services__grid">
+          <article class="card" data-aos>
+            <div class="card__icon">🔧</div>
+            <h3 class="card__title">Обслуживание и ремонт электрощитов</h3>
+            <p class="card__text">Плановое обслуживание, диагностика, замена компонентов, ремонт неисправностей.</p>
+            <a href="#contacts" class="card__link">Подробнее</a>
+          </article>
+          <article class="card" data-aos>
+            <div class="card__icon">📦</div>
+            <h3 class="card__title">Сборка и монтаж шкафов автоматики</h3>
+            <p class="card__text">Проектирование, сборка по схеме, монтаж на объекте, пусконаладочные работы.</p>
+            <a href="#contacts" class="card__link">Подробнее</a>
+          </article>
+          <article class="card" data-aos>
+            <div class="card__icon">⚙️</div>
+            <h3 class="card__title">Замена автоматов, УЗО, дифавтоматов</h3>
+            <p class="card__text">Подбор аналогов, замена без простоев, проверка селективности.</p>
+            <a href="#contacts" class="card__link">Подробнее</a>
+          </article>
+          <article class="card" data-aos>
+            <div class="card__icon">🛡️</div>
+            <h3 class="card__title">Наладка релейной защиты и автоматики</h3>
+            <p class="card__text">Настройка защит, испытания, оформление протоколов.</p>
+            <a href="#contacts" class="card__link">Подробнее</a>
+          </article>
+          <article class="card" data-aos>
+            <div class="card__icon">🔍</div>
+            <h3 class="card__title">Диагностика и поиск неисправностей</h3>
+            <p class="card__text">Выезд специалиста, измерение параметров, локализация и устранение дефектов.</p>
+            <a href="#contacts" class="card__link">Подробнее</a>
+          </article>
+          <article class="card" data-aos>
+            <div class="card__icon">📋</div>
+            <h3 class="card__title">Монтаж ВРУ, ГРЩ, ЩР</h3>
+            <p class="card__text">Вводно-распределительные устройства, главные и групповые щиты под ключ.</p>
+            <a href="#contacts" class="card__link">Подробнее</a>
+          </article>
+          <article class="card" data-aos>
+            <div class="card__icon">🏢</div>
+            <h3 class="card__title">Обслуживание электросетей зданий</h3>
+            <p class="card__text">Комплексное обслуживание внутренних сетей офисов, складов, производств.</p>
+            <a href="#contacts" class="card__link">Подробнее</a>
+          </article>
+          <article class="card" data-aos>
+            <div class="card__icon">🚨</div>
+            <h3 class="card__title">Аварийный выезд 24/7</h3>
+            <p class="card__text">Срочный выезд при отключениях и авариях. Тольятти и Самарская область.</p>
+            <a href="#contacts" class="card__link">Подробнее</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Advantages -->
+    <section class="section advantages" id="advantages">
+      <div class="container">
+        <h2 class="section__title">Почему выбирают нас</h2>
+        <div class="advantages__grid">
+          <div class="advantage" data-aos>
+            <div class="advantage__icon">✓</div>
+            <h3 class="advantage__title">Опытные электрики с допусками</h3>
+            <p class="advantage__text">Сотрудники с группами допуска и регулярным повышением квалификации.</p>
+          </div>
+          <div class="advantage" data-aos>
+            <div class="advantage__icon">✓</div>
+            <h3 class="advantage__title">Гарантия на все работы</h3>
+            <p class="advantage__text">Письменная гарантия на монтаж и замену оборудования.</p>
+          </div>
+          <div class="advantage" data-aos>
+            <div class="advantage__icon">✓</div>
+            <h3 class="advantage__title">Собственный транспорт и склад</h3>
+            <p class="advantage__text">Быстрая доставка запчастей и выезд на объект без задержек.</p>
+          </div>
+          <div class="advantage" data-aos>
+            <div class="advantage__icon">✓</div>
+            <h3 class="advantage__title">Выезд в день обращения</h3>
+            <p class="advantage__text">Заявки обрабатываем в течение часа, выезд — в удобное для вас время.</p>
+          </div>
+          <div class="advantage" data-aos>
+            <div class="advantage__icon">✓</div>
+            <h3 class="advantage__title">Прозрачные цены</h3>
+            <p class="advantage__text">Смета до начала работ. Никаких скрытых платежей.</p>
+          </div>
+          <div class="advantage" data-aos>
+            <div class="advantage__icon">✓</div>
+            <h3 class="advantage__title">Договор и отчётные документы</h3>
+            <p class="advantage__text">Официальный договор, акты, счета для бухгалтерии.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section projects" id="projects">
+      <div class="container">
+        <h2 class="section__title">Выполненные работы</h2>
+        <div class="projects__slider">
+          <div class="projects__track">
+            <div class="projects__slide">
+              <img src="images/project1.jpg" alt="Шкаф автоматики для торгового центра" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling?.classList.add('projects__placeholder--visible');">
+              <span class="projects__placeholder">Шкаф автоматики для ТЦ</span>
+              <span class="projects__caption">Шкаф автоматики для ТЦ</span>
+            </div>
+            <div class="projects__slide">
+              <img src="images/project2.jpg" alt="Обслуживание ВРУ завода" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling?.classList.add('projects__placeholder--visible');">
+              <span class="projects__placeholder">Обслуживание ВРУ завода</span>
+              <span class="projects__caption">Обслуживание ВРУ завода</span>
+            </div>
+            <div class="projects__slide">
+              <img src="images/project3.jpg" alt="ГРЩ офисного здания" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling?.classList.add('projects__placeholder--visible');">
+              <span class="projects__placeholder">ГРЩ офисного здания</span>
+              <span class="projects__caption">ГРЩ офисного здания</span>
+            </div>
+            <div class="projects__slide">
+              <img src="images/project4.jpg" alt="Щитовая жилого комплекса" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling?.classList.add('projects__placeholder--visible');">
+              <span class="projects__placeholder">Щитовая ЖК</span>
+              <span class="projects__caption">Щитовая ЖК</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacts + Form -->
+    <section class="section contacts" id="contacts">
+      <div class="container contacts__grid">
+        <div class="contacts__form-wrap">
+          <h2 class="section__title">Получите консультацию бесплатно</h2>
+          <form class="form" id="contact-form" action="send.php" method="post">
+            <input type="text" name="company" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px;opacity:0;" aria-hidden="true">
+            <div class="form__group">
+              <label for="name" class="form__label">Имя *</label>
+              <input type="text" id="name" name="name" class="form__input" required placeholder="Ваше имя">
+            </div>
+            <div class="form__group">
+              <label for="phone" class="form__label">Телефон *</label>
+              <input type="tel" id="phone" name="phone" class="form__input" required placeholder="+7 (___) ___-__-__">
+            </div>
+            <div class="form__group">
+              <label for="email" class="form__label">Email</label>
+              <input type="email" id="email" name="email" class="form__input" placeholder="example@mail.ru">
+            </div>
+            <div class="form__group">
+              <label for="message" class="form__label">Сообщение</label>
+              <textarea id="message" name="message" class="form__input form__textarea" rows="4" placeholder="Опишите задачу или вопрос"></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--lg btn--full">Отправить заявку</button>
+          </form>
+        </div>
+        <div class="contacts__info">
+          <h3 class="contacts__info-title">Контакты</h3>
+          <p><a href="tel:+79178284730" class="contacts__link">8 917 828-47-30</a></p>
+          <p><a href="tel:+79531380754" class="contacts__link">8 953 138-07-54</a></p>
+          <p><a href="mailto:serega0301@mail.ru" class="contacts__link">serega0301@mail.ru</a></p>
+          <p>Россия, г. Тольятти, ул. Механизаторов 11, офис 401</p>
+          <div class="contacts__social">
+            <a href="#" class="contacts__social-link" aria-label="WhatsApp">WhatsApp</a>
+            <a href="#" class="contacts__social-link" aria-label="Telegram">Telegram</a>
+          </div>
+        </div>
+      </div>
+      <div class="contacts__map" id="map">
+        <iframe
+          src="https://yandex.ru/map-widget/v1/?mode=search&text=%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%2C%20%D0%A2%D0%BE%D0%BB%D1%8C%D1%8F%D1%82%D1%82%D0%B8%2C%20%D1%83%D0%BB%D0%B8%D1%86%D0%B0%20%D0%9C%D0%B5%D1%85%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%82%D0%BE%D1%80%D0%BE%D0%B2%2C%2011&z=17"
+          width="100%"
+          height="100%"
+          frameborder="0"
+          allowfullscreen="true"
+          style="border:0;">
+        </iframe>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <a href="#" class="logo logo--footer" aria-label="ООО «МК ЭНЕРГО»">
+          <span class="logo__icon" aria-hidden="true" style="display:none;">⚡</span>
+          <img
+            class="logo__img"
+            src="images/logo.png"
+            alt="Логотип ООО «МК ЭНЕРГО»"
+            width="34"
+            height="34"
+            loading="lazy"
+            decoding="async"
+            onerror="this.style.display='none'; this.previousElementSibling.style.display='inline-block';"
+          >
+        </a>
+        <nav class="footer__nav">
+          <a href="#hero">Главная</a>
+          <a href="#services">Услуги</a>
+          <a href="#about">О компании</a>
+          <a href="#advantages">Преимущества</a>
+          <a href="#projects">Проекты</a>
+          <a href="#contacts">Контакты</a>
+        </nav>
+        <div class="footer__contacts">
+          <a href="tel:+79178284730">8 917 828-47-30</a>
+          <a href="tel:+79531380754">8 953 138-07-54</a>
+          <a href="mailto:serega0301@mail.ru">serega0301@mail.ru</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copy">© 2026 ООО «МК ПРОФИ ЭНЕРГО ГРУПП». Все права защищены.</p>
+        <a href="privacy.html" class="footer__policy">Политика конфиденциальности</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
